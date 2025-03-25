@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BayMa Diaries - Baby Essentials Subscription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Baby Essentials, Delivered Monthly</h1>
+            <p>Get diapers, wipes, and more with BayMa Diaries' subscription box.</p>
+            <a href="#subscribe" class="cta-button">Subscribe Now</a>
+        </div>
+    </section>
+
+    <!-- Subscription Details -->
+    <section id="subscribe" class="subscription">
+        <div class="container">
+            <h2>Choose Your Plan</h2>
+            <p>Flexible plans designed to make parenting easier.</p>
+            <div class="plans">
+                <div class="plan">
+                    <h3>Basic Plan</h3>
+                    <p>Monthly diaper & wipes delivery</p>
+                    <span>$20/month</span>
+                </div>
+                <div class="plan">
+                    <h3>Premium Plan</h3>
+                    <p>Diapers, wipes & baby essentials</p>
+                    <span>$35/month</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diaper Calculator -->
+    <section class="calculator">
+        <div class="container">
+            <h2>Diaper Calculator</h2>
+            <p>Estimate how many diapers your baby needs.</p>
+            <input type="number" id="age" placeholder="Baby's Age (months)" min="1">
+            <button onclick="calculateDiapers()">Calculate</button>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
